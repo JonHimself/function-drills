@@ -119,7 +119,7 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 function printAllNames(array){
-  for(i = 0; i < array.length; i++){
+  for(let i = 0; i < array.length; i++){
     console.log(array[i])
   }
 }
@@ -184,7 +184,7 @@ let loser = 'Glimmer'
 //CODE HERE
 
 function theEliminator (contestants, loser) {
-  for(i = 0; i < contestants.length; i++) {
+  for( let i = 0; i < contestants.length; i++) {
     if(contestants[i] === loser){
       contestants.splice([i], 1);
     } 
